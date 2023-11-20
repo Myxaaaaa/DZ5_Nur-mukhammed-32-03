@@ -73,7 +73,7 @@ const users = [
 
 const youngestUser = users.reduce((minAgeUser, currentUser) => (currentUser.age < minAgeUser.age ? currentUser : minAgeUser));
 const oldestUser = users.reduce((maxAgeUser, currentUser) => (currentUser.age > maxAgeUser.age ? currentUser : maxAgeUser));
-const ageDifference = oldestUser.age - youngestUser.age;
+const ageDifference = oldestUser.age - youngestUser.age;g
 console.log(`Пользователь ${oldestUser.name} старше ${youngestUser.name} на ${ageDifference} лет.`);
 
 
